@@ -11,18 +11,22 @@
     <header>
       <h1>TicTacToe</h1>
     </header>
-    <div class="button-reload"><button class="reload">Reload</button></div>
-    <div class="game-screen">
-      <div class="button1"><button id="button1"></button></div>
-      <div class="button2"><button id="button2"></button></div>
-      <div class="button3"><button id="button3"></button></div>
-      <div class="button4"><button id="button4"></button></div>
-      <div class="button5"><button id="button5"></button></div>
-      <div class="button6"><button id="button6"></button></div>
-      <div class="button7"><button id="button7"></button></div>
-      <div class="button8"><button id="button8"></button></div>
-      <div class="button9"><button id="button9"></button></div>
+    <div class="button-reset"><button id="reset">Reload</button></div>
+    <div id="announcer" class="display">
+      Player <span class="display-player playerX">X</span>
     </div>
+    <div class="game-screen">
+      <div class="button1 tile"></div>
+      <div class="button2 tile"></div>
+      <div class="button3 tile"></div>
+      <div class="button4 tile"></div>
+      <div class="button5 tile"></div>
+      <div class="button6 tile"></div>
+      <div class="button7 tile"></div>
+      <div class="button8 tile"></div>
+      <div class="button9 tile"></div>
+    </div>
+    <div class="display announcer hide"></div>
     <footer>
       <div class="footer-text">
         <p>TicTacToe Coded by adrian7cd</p>

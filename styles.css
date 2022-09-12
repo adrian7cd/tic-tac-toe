@@ -53,6 +53,21 @@ h1 {
   border: 1px solid black;
 }
 
+.hide {
+  display: none;
+}
+
+.tile {
+  background-color: white;
+  font-size: 50px;
+  min-width: 100px;
+  min-height: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button1 {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -79,4 +94,11 @@ h1 {
   margin-top: 180px;
   color: #ffd933;
   border-top: 1px solid black;
+}
+
+#announcer {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #ffd933;
 }
